@@ -1,6 +1,6 @@
 //Setting up game and variables//
 //Array of Reindeer Names to be guessed//
-var reindeerNames = ["dasher", "dancer", "vixen", "comet", "cupid", "blitzen", "rudolf"]
+var reindeerNames = ["dasher", "dancer", "vixen", "comet", "cupid", "blitzen", "rudolph"]
 //Randomly choose a Reindeer Name from the array to start each game//
 var reindeerRandom = [Math.floor(Math.random() * reindeerNames.length)];
 // Word that gets chosen//
