@@ -73,15 +73,14 @@ function restart() {
     blanks = [];
     wins = 0;
     losses = 0;
-    keyword = [];
 }
 if (fullName === chosenWord) {
-    restart();
+    restart()
     fillBlanks();
     return;
 }
 else if (remainingGuesses < 1) {
-    restart();
+    restart()
     fillBlanks();
     return;
 }
