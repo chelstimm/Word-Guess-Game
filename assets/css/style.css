@@ -6,6 +6,7 @@ h1, h2 {
     padding-top: 0px;
     text-align: center;
 }
+
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
@@ -14,7 +15,7 @@ p {
     text-align: center;
 }
 
-.blanks {
+#blanks {
     border: 7px solid white;
     font-size: 30px;
     color: white;
@@ -25,27 +26,7 @@ p {
     width: 50%;
 }
 
-.wins {
-    border: 7px solid white;
-    font-size: 30px;
-    color: white;
-    text-align: center;
-    margin: 10px auto;
-    padding: 5px;
-    height: 30px;
-    width: 50%;
-}
-.guessLeft {
-    border: 7px solid white;
-    font-size: 30px;
-    color: white;
-    text-align: center;
-    margin: 10px auto;
-    padding: 5px;
-    height: 30px;
-    width: 50%;
-}
-.losses {
+#myWins {
     border: 7px solid white;
     font-size: 30px;
     color: white;
@@ -56,6 +37,38 @@ p {
     width: 50%;
 }
 
+#myGuesses {
+    border: 7px solid white;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    height: 30px;
+    width: 50%;
+}
+
+#myLosses {
+    border: 7px solid white;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    height: 30px;
+    width: 50%;
+}
+
+#wrongLetter {
+    border: 7px solid white;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    height: 30px;
+    width: 50%;
+}
 
 .container {
     background-color: darkred;
@@ -64,6 +77,7 @@ p {
     padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #top-image {
    display: block;
    margin-left: auto;
