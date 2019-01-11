@@ -1,4 +1,5 @@
 # Reindeer Games
+![](/assets/images/reindeergames.png)
 See how many reindeer names you can guess correctly in this one-of-a-kind word guess games. 
 
 ## Instructions
